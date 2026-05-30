@@ -1,6 +1,5 @@
 -- Steps: 1.Load dataset into a SQL database.
 
-CREATE DATABASE IF NOT EXISTS SuperstoreDB;
 USE SuperstoreDB;
 
 -- 2.Explore table (schema, sample data). 
