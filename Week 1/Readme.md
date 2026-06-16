@@ -1,115 +1,50 @@
-# Week 1 Assignment: Data Exploration and Cleaning using Pandas
+# Week 1: Data Exploration and Cleaning using Pandas
 
 ## Objective
+The objective of this assignment was to learn Python basics and perform data exploration and cleaning using Pandas.
 
-The objective of this assignment was to learn Python basics and perform data exploration and cleaning using the Pandas library. The dataset was loaded, analyzed, cleaned, and transformed to prepare it for further analysis.
-
----
-
-## Assignment Tasks
-
-### 1. Data Loading
-- Imported the Pandas library.
+## Tasks Performed
 - Loaded the CSV dataset into a Pandas DataFrame.
+- Explored the dataset using `head()`, `tail()`, `shape`, and `info()`.
+- Handled missing values and removed duplicates.
+- Filtered and selected relevant data.
+- Created derived columns (`quantity` and `total_amount`).
+- Saved the cleaned dataset as a new CSV file.
 
-### 2. Data Exploration
-- Displayed the first and last few records.
-- Checked the shape of the dataset.
-- Examined column names and data types.
-- Viewed dataset information for better understanding.
-
-### 3. Handling Missing Values
-- Identified missing values in the dataset.
-- Filled missing values in the `discount` column.
-- Removed remaining missing records to improve data quality.
-
-### 4. Data Filtering and Selection
-Performed various operations including:
-- Filtering products with rating greater than 4.
-- Filtering products with discount greater than 50%.
-- Selecting products from the sweaters category.
-- Selecting specific columns for analysis.
-
-### 5. Removing Duplicates
-- Identified duplicate records.
-- Removed duplicate entries from the dataset.
-
-### 6. Feature Engineering
-Created new columns:
-- `quantity`
-- `total_amount = initial_price × quantity`
-
-### 7. Saving the Cleaned Dataset
-- Exported the processed dataset as `cleaned_dataset.csv`.
-
----
-
-## Tools and Technologies
-
+## Tools Used
 - Python
 - Pandas
 - Jupyter Notebook
 
----
-
 ## Files Included
-
-```
-Assignment_1_Celebal.ipynb
-cleaned_dataset.csv
-README.md
-output 1.jpeg
-output 2.jpeg
-output 3.jpeg
-```
-
----
-
-## Results
-
-- Successfully explored the dataset.
-- Handled missing values and duplicate records.
-- Applied data filtering and selection techniques.
-- Created derived columns for additional analysis.
-- Generated and saved a cleaned dataset.
-
----
+- `Assignment_1_Celebal.ipynb`
+- `cleaned_dataset.csv`
+- `README.md`
+- output 1.jpeg
+- output 2.jpeg
+- output 3.jpeg
 
 ## Output Screenshots
 
 ### Dataset Preview
+![Output 1](output 1.jpeg)
 
-![Dataset Preview](output 1.jpeg)
+### Data Cleaning
+![Output 2](output 2.jpeg)
 
-### Missing Value Handling
+### Filtered Data
+![Output 3](output 3.jpeg)
 
-![Missing Values](output 2.jpeg)
-
-### Data Filtering
-
-![Data Filtering](output 3.jpeg)
-
----
 
 ## Learning Outcomes
-
-Through this assignment, I gained practical experience in:
-
-- Working with Python and Pandas.
-- Exploring and understanding datasets.
+- Data exploration using Pandas.
 - Handling missing values and duplicates.
-- Performing data filtering and selection.
+- Data filtering and transformation.
 - Creating derived features.
-- Exporting cleaned datasets for future analysis.
-
----
+- Exporting cleaned datasets.
 
 ## Conclusion
-
-This assignment provided hands-on experience in essential data preprocessing and exploratory data analysis techniques. These concepts form the foundation for advanced data analytics and data engineering workflows.
+This assignment provided hands-on experience in data preprocessing and basic data analysis using Python and Pandas.
 
 ---
-
-**Internship:** Celebal Technologies Data Engineering Internship  
-**Week:** 1  
-**Topic:** Python Basics and Data Exploration using Pandas
+**Celebal Technologies Data Engineering Internship | Week 1**
