@@ -58,10 +58,9 @@ Created new columns:
 Assignment_1_Celebal.ipynb
 cleaned_dataset.csv
 README.md
-output1.png
-output2.png
-output3.png
-output4.png
+output 1.jpeg
+output 2.jpeg
+output 3.jpeg
 ```
 
 ---
