@@ -126,8 +126,5 @@ spark-assignment/
 ## Conclusion
 
 This assignment demonstrates how Apache Spark can be used for data cleaning, transformation, filtering, aggregation, and analytical processing using DataFrames.
-Spark’s in-memory processing and DataFrame API make it highly efficient for large-scale data analysis and real-world data pipelines.
-
-This assignment demonstrates how Apache Spark can be used for data cleaning, transformation, filtering, aggregation, and analytical processing using DataFrames.
 
 Spark’s in-memory processing and DataFrame API make it highly efficient for large-scale data analysis and real-world data pipelines.
