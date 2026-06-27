@@ -1,19 +1,13 @@
 # Spark Assignment - Data Cleaning, Transformation and Aggregation using PySpark
 
----
-
 ## Objective
 
 The objective of this assignment is to understand Apache Spark fundamentals and perform data cleaning, transformation, filtering, aggregation, and grouping operations using Spark DataFrames.
-
----
 
 ## Dataset Used
 
 ### Sample Superstore Dataset
 The dataset contains sales information including orders, customers, products, regions, sales, discounts, quantity, and profit.
-
----
 
 ## Why Spark?
 
@@ -30,13 +24,9 @@ The dataset contains sales information including orders, customers, products, re
 - Suitable for large-scale data processing.
 - Easy to perform transformations and aggregations.
 
----
-
 ## Spark DataFrame Immutability
 
 Spark DataFrames are immutable. Operations such as `filter()`, `select()`, `withColumn()`, and `dropDuplicates()` do not modify the original DataFrame. Instead, Spark creates a new DataFrame containing the transformed data.
-
----
 
 ## Operations Performed
 
@@ -53,8 +43,6 @@ Spark DataFrames are immutable. Operations such as `filter()`, `select()`, `with
 - Used `groupBy()` for category-wise and region-wise analysis.
 - Built a complete data processing pipeline.
 
----
-
 ## Aggregation Operations
 
 The following aggregation functions were used:
@@ -67,15 +55,11 @@ The following aggregation functions were used:
 
 These functions help summarize and analyze the dataset efficiently.
 
----
-
 ## GroupBy Analysis
 
 - Category-wise Total Sales
 - Region-wise Average Profit
 - Sub-Category-wise Record Count
-
----
 
 ## Wide Transformations and Shuffle
 
@@ -91,6 +75,59 @@ Wide transformations require data movement across partitions. Examples include:
 
 Shuffle is the process of redistributing data across partitions during wide transformations. It can impact performance due to data movement across the cluster.
 
----
-
 ## Data Processing Pipeline
+
+Load Dataset → Clean Data → Filter Records → Apply Transformations → Perform Aggregations → Analyze Results using GroupBy
+
+## Steps Performed
+
+1. Loaded the Superstore dataset into a Spark DataFrame.
+2. Explored the dataset using `show()`, `columns`, and `schema`.
+3. Removed duplicate records.
+4. Handled missing values.
+5. Applied filtering conditions.
+6. Renamed and transformed columns.
+7. Converted data types using casting.
+8. Performed aggregation operations.
+9. Grouped data using `groupBy()`.
+10. Built a complete Spark processing pipeline.
+
+## Observations
+
+- Data cleaning improves data quality and consistency.
+- Filtering helps focus analysis on relevant records.
+- Aggregation provides meaningful business insights.
+- GroupBy helps identify trends across categories and regions.
+- Spark DataFrames simplify large-scale data processing.
+- Wide transformations involve shuffling and may affect performance.
+
+## Technologies Used
+
+- Python
+- PySpark
+- Jupyter Notebook
+- Apache Spark
+
+## Project Structure
+
+spark-assignment/  
+│  
+├── data/  
+│   └── dataset.csv  
+│  
+├── notebook/  
+│   └── spark_basics.ipynb  
+│  
+├── output/  
+│   └── results.csv  
+│  
+└── README.md  
+
+## Conclusion
+
+This assignment demonstrates how Apache Spark can be used for data cleaning, transformation, filtering, aggregation, and analytical processing using DataFrames.
+Spark’s in-memory processing and DataFrame API make it highly efficient for large-scale data analysis and real-world data pipelines.
+
+This assignment demonstrates how Apache Spark can be used for data cleaning, transformation, filtering, aggregation, and analytical processing using DataFrames.
+
+Spark’s in-memory processing and DataFrame API make it highly efficient for large-scale data analysis and real-world data pipelines.
