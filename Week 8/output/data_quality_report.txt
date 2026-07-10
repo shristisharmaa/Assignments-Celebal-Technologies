@@ -1,0 +1,44 @@
+E-COMMERCE DATA QUALITY REPORT
+========================================
+
+ISSUES FOUND AND HANDLED
+----------------------------------------
+Duplicate customer rows: 8
+Invalid customer registration dates: 0
+Invalid customer emails: 16
+Invalid customer types: 0
+Duplicate product rows: 5
+Inconsistent product names: 30
+Invalid product cost prices: 0
+Duplicate order rows: 15
+Orders with missing customer IDs: 75
+Orders with unknown customer references: 0
+Orders with DD-MM-YYYY date format: 45
+Unparseable order dates: 0
+Orders with future dates: 0
+Orders with invalid status: 0
+Duplicate order item rows: 40
+Order items with invalid numeric values: 0
+Order items with invalid discounts: 0
+Order items with zero quantity: 0
+Order items with invalid unit price: 0
+Order items referencing missing orders: 40
+Order items referencing missing products: 0
+Negative quantities retained as returns: 119
+
+INVALID EMAIL CUSTOMER IDS
+----------------------------------------
+CUST0153, CUST0290, CUST0306, CUST0341, CUST0354, CUST0458, CUST0496, CUST0502, CUST0552, CUST0557, CUST0566, CUST0594, CUST0602, CUST0676, CUST0744, CUST0782
+
+FINAL CLEANED ROW COUNTS
+----------------------------------------
+Customers: 801
+Products: 500
+Orders: 1500
+Order items: 3960
+
+FINAL VALIDATION
+----------------------------------------
+Duplicate primary keys: 0
+Orphan order references: 0
+Orphan product references: 0
